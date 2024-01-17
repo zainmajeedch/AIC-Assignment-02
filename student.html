@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <style>
+      table {
+        border-spacing: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: right">Student Registration Form</h2>
+    <table>
+      <form action="">
+        <tr>
+          <td><label for="fname">First Name:</label></td>
+          <td>
+            <input
+              type="text" id="fname" name="fname" 
+              placeholder="Enter your first name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="lname">Last Name:</label>
+          </td>
+          <td>
+            <input
+              type="text" id="lname" name="lname"
+              placeholder="Enter your last name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input
+              type="text" id="email" name="email"
+              placeholder="It should contain @"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mobile">Mobile:</label></td>
+          <td>
+            <input
+              type="text"
+              id="mobile"
+              name="mobile"
+              placeholder="only 10 digits are allowed"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dob">Date Of Birth:</label></td>
+          <td>
+            <input type="date" id="dob" name="dob" placeholder="mm/dd/yyyy" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td>
+           
+            <textarea
+              name="address"
+              id="address"
+              placeholder=""
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="city">City:</label></td>
+          <td>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pin">Area PIN:</label></td>
+          <td>
+            <input
+              type="text"
+              id="pin"
+              name="pin"
+              placeholder=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="state">State:</label></td>
+          <td>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="qualification">Qualification:</label></td>
+          <td>
+            <select id="qualification" name="qualification">
+              <option value="">Select Qualification</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="specialization">Specialization:</label><br /></td>
+          <td>
+            <input
+              type="checkbox"
+              id="cs"
+              name="specialization"
+              value="Computer Science"
+            />
+            <label for="cs">Computer Science</label><br />
+
+            <input
+              type="checkbox"
+              id="it"
+              name="specialization"
+              value="Information Technology"
+            />
+            <label for="it">Information Technology</label><br />
+
+            <input
+              type="checkbox"
+              id="ca"
+              name="specialization"
+              value="Computer Architecture"
+            />
+            <label for="ca">Computer Architecture</label><br />
+
+            <input
+              type="checkbox"
+              id="tc"
+              name="specialization"
+              value="Tele Communication"
+            />
+            <label for="tc">Tele Communication</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Register" /></td>
+        </tr>
+        
+      </form>
+    </table>
+  </body>
+</html>
